@@ -1,0 +1,30 @@
+body {background-color: coral;}
+
+#row1col1 {
+    background-color: #4C83FF;
+}
+
+#row1col2 {
+    background-color: #BD39E6;
+}
+
+#row1col3 {
+    background-color: #51F5B9;
+}
+
+#row2col1 {
+    background-color: #FC5332;
+}
+
+#row2col2 {
+    background-color: #32DFFF;
+}
+
+#row3col1 {
+    background-color: #FFCC60;
+}
+
+.img-responsive{
+    max-width: 400px;
+    margin: 20px;
+}
