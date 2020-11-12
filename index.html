@@ -14,6 +14,7 @@
 </head>
 <body>
 <!-- consider using sass instead-->
+<div class="Jumbotron jumbotron-fluid">
     <div class="container">
         <div class="row">
             <div class="col-lg-4"></div>
@@ -22,16 +23,19 @@
         </div> 
         <div class="row">
             <div class="col-lg-6 col-sm-6"></div>
+                <img id="coastline" class="img-responsive" src="https://www.pexels.com/photo/scenic-view-of-coastline-during-dawn-2618782/" alt="scenic coastline">
             <div class="col-lg-6 col-sm-6"></div>
         </div> 
          <div class="row">
-            <div class="col-lg-12"></div>
+            <div class="col-lg-12 col-md-12 col-sm-*"></div>
         </div>
     </div>
+</div>
+
 <!--
-Includes Bootstrap’s CSS file in the <head>
+CODING CHALLENGE
 HTML/bootstrap:
-    interface Bootstrap
+    interface Bootstrap (Includes Bootstrap’s CSS file in the <head>)
     Interface CSS
     ROWS: Has a bootstrap grid with 3 rows. 
     COLUMNS:
@@ -40,13 +44,22 @@ HTML/bootstrap:
 
 CSS:
     Color the backgrounds of these divs with different colors so that each column can be seen.
-(Optional, if time permits)  add an image to one of the columns and make it responsive. Add a Jumbotron above your 3 rows. Change the columns so that at screen width medium or larger, each column spans all 12 of the grid units.
 
-Hint: to make a column behave one way when the screen is XL, you just give the div a class of col-xl-4 where the number (4 in this example) is a number of grid units out of 12 that the column should span.  To make that same column behave differently on a small screen, you could ALSO give it the class of col-sm-6, and now that same column on a small screen will span 6 of the 12 grid units. An example of the syntax is as follows:
+EXTRA:
+    add an image to one of the columns and make it responsive. 
+    COLUMNS:
+        vp MEDIUM: each column spans all 12 of the grid units.
+    Add a Jumbotron above your 3 rows. 
 
-<div class”col-xl-5 col-sm-7”>I am the content</div>
 
-Message me your GitHub pages URL before 9am - whether you're done or not!
+HINT/HELP: 
+    To make a column behave one way when the screen is XL, you just give the div a class of col-xl-4 where the number (4 in this example) is a number of grid units out of 12 that the column should span.  
+    To make that same column behave differently on a SMALL screen, you could ALSO give it the class of col-sm-6, and now that same column on a small screen will span 6 of the 12 grid units. 
+    EXAMPLE of syntax is as follows:
+        <div class”col-xl-5 col-sm-7”>I am the content</div>
+
+DUE:
+    Message me your GitHub pages URL before 9am - whether you're done or not!
 
 --> 
 </body>
